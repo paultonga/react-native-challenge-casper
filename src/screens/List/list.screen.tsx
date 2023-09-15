@@ -20,7 +20,7 @@ const List = () => {
   const [gender, setGender] = useState('-1');
   const [age, setAge] = useState('-1');
   const [sortOrder, setSortOrder] = useState<string | undefined>();
-const debouncedSearchRecords = debounce(searchRecords, 550);
+const debouncedSearchRecords = debounce(searchRecords, 500);
   
 
 
